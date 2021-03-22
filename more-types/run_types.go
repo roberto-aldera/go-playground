@@ -8,4 +8,7 @@ func main() {
 
 	fmt.Println("\n*** Arrays and slices ***")
 	run_slice_examples()
+
+	fmt.Println("\n*** Running slice exercise ***")
+	run_slice_exercise()
 }
