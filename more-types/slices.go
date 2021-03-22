@@ -132,6 +132,21 @@ func run_slice_examples() {
 
 	s3 = append(s3, 2, 3, 4) // We can add more than one element at a time.
 	printSlice(s3)
+
+	// Using range to iterate over a slice - returns index and copy of element at index
+	var pow = []int{1, 2, 4, 8, 16, 32, 64, 128}
+	for i, v := range pow {
+		fmt.Printf("2**%d = %d\n", i, v)
+	}
+
+	// This is how you'd use either the index or value only
+	pow2 := make([]int, 10)
+	for i := range pow2 {
+		pow2[i] = 1 << uint(i) // == 2**i
+	}
+	for _, value := range pow2 {
+		fmt.Printf("%d\n", value)
+	}
 }
 
 func printSlice(s []int) {
