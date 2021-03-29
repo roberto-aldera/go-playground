@@ -11,4 +11,7 @@ func main() {
 
 	fmt.Println("\n*** Running slice exercise ***")
 	run_slice_exercise()
+
+	fmt.Println("\n*** Running maps ***")
+	run_maps_examples()
 }
