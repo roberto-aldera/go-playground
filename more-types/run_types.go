@@ -14,4 +14,7 @@ func main() {
 
 	fmt.Println("\n*** Running maps ***")
 	run_maps_examples()
+
+	fmt.Println("\n*** Running maps exercise ***")
+	run_maps_exercise()
 }
