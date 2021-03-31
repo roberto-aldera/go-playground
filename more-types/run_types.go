@@ -17,4 +17,10 @@ func main() {
 
 	fmt.Println("\n*** Running maps exercise ***")
 	run_maps_exercise()
+
+	fmt.Println("\n*** Running functions ***")
+	run_functions_examples()
+
+	fmt.Println("\n*** Running function fibonacci exercise ***")
+	run_fibonacci_exercise()
 }
